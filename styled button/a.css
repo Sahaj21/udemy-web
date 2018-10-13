@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+
+body {
+	background-color: #FFCFD2;;
+	font-family: Lato
+}
+
+h1{
+	color: #553E4E;
+
+	
+}
+
+.btn{
+	background-color: #FFAFC5;
+	border: none;
+	outline: 0; 
+	color: white;
+	font-weight: 10px;
+	font-size: 32px;
+	letter-spacing: 2px;
+	padding: 25px 75px;
+	position: absolute;
+	border-radius: 20px;
+	margin: 0 auto; 
+	text-transform: uppercase;
+	box-shadow: 0px 5px #553E4E;
+}
+
+.btn:hover {
+	box-shadow: 0px 3px #553E4E;
+	top: 2px;
+}
+
+.btn:active {
+	box-shadow: 0px 1px #553E4E;
+	top: 4px;
+}
